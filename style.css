@@ -1,0 +1,293 @@
+#main_body{
+    background: linear-gradient(hsla(0,0%,0%,0.5),hsla(0,0%,0%,0.5)),url(05.jpg) ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-position: -200px;
+    width: 100%;
+    right: 0;
+    position: fixed;
+    bottom: 0;
+    height: 100vh;
+   
+}
+/* news section */
+#new div{
+    width: 600px;
+    height: 400px;
+    background-color: rgb(105, 105, 105);
+    box-shadow: 1px 1px 10px grey;
+    margin: 20px;
+    border-radius: 28px;
+}
+#new{
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 92%;
+    top: 100px;
+    right: 20px;
+   transition: 1s;
+}
+/* entertainment section */
+#entertainment div{
+    width: 600px;
+    height: 400px;
+    background-color: rgb(15, 235, 15);
+    box-shadow: 1px 1px 10px grey;
+    margin: 20px;
+    border-radius: 28px;
+}
+#entertainment{
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 92%;
+    top: 100px;
+    left: 100%;
+    display: none;
+    transition: 1s;
+}
+
+/* hot news */
+#hot_news div{
+    width: 600px;
+    height: 400px;
+    background-color: rgb(248, 17, 17);
+    box-shadow: 1px 1px 10px grey;
+    margin: 20px;
+    border-radius: 28px;
+}
+#hot_news{
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 92%;
+    top: 100px;
+    right: 20px;
+    left: 100%;
+    display: none;
+    transition: 1s;
+}
+/* The left navbar */
+.img1{
+    position: absolute;
+    top:90px;
+    left: -220px;
+    transition: 1s;
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+    cursor: pointer;
+}
+.img2{
+    position: absolute;
+    top:220px;
+    left: -220px;
+    transition: 1s;
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+    cursor: pointer;
+}
+.img3{
+    position: absolute;
+    top:330px;
+    left: -220px;
+    transition: 1s;
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+    cursor: pointer;
+}
+.img4{
+    position: fixed;
+    bottom:240px;
+    left: -220px;
+    transition: 1s;
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+    cursor: pointer;
+}
+.img5{
+    position: fixed;
+    bottom:10px;
+    left: -220px;
+    transition: 1s;
+    width: 300px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+    cursor: pointer;
+}
+#left_navBar{
+    position: fixed;
+    left: 0;
+    top: 50px;
+    width: 80px;
+    height: 94%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid white;
+    overflow: hidden;
+    
+}
+#left_navBar .top{
+    display: flex;
+    flex-direction: column;
+}
+#left_navBar .top img{
+    width: 90px;
+    margin-top: 30px;
+}
+#left_navBar .bottom_profile img{
+    width: 90px;
+   
+}
+/* The top navbar */
+#top_navBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    background-color: black;
+    align-items: center;
+}
+#top_navBar h1{
+    color: pink;
+    font-family:cursive
+}
+#top_navBar .search{
+    width: 30%;
+    height: 80%;
+    border: none;
+    border-radius: 28px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+#top_navBar .search img{
+    width: 5%;
+}
+#top_navBar .search input{
+    width: 90%;
+    height: 100%;
+    border: none;
+}
+#top_navBar .about{
+    display: flex;
+    color: red;
+    align-items: center;
+    margin: 30px;
+}
+#top_navBar .about img{
+    width: 50px;
+    mix-blend-mode: difference;
+    margin-left: 20px;
+}
+/* bottom navbar */
+#bottom_navBar{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    left: 80px;
+    bottom: 0;
+    background-color: black;
+}
+#bottom_navBar .news{
+    bottom: -40px;
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    margin-left: 0px;
+    margin-right: 50px;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    font-weight: 900;
+    transition: 0.3s;
+}
+#bottom_navBar .edu{
+    bottom: -40px;
+    right: 33%;
+    position: absolute;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    font-weight: 900;
+    transition: 0.3s;
+}
+#bottom_navBar .hot{
+    bottom: -40px;
+    right: 0;
+    position: absolute;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    margin-left: 50px;
+    margin-right: 40px;
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    font-weight: 900;
+    transition: 0.3s;
+}
+#bottom_navBar p:hover{
+    height: 100px;
+    font-size: 50px;
+    border-radius: 10px;
+    color:black;
+    background-color: red;
+    bottom: -40px;
+}
+
+/* >>>>>screen less than 700px */
+
+
